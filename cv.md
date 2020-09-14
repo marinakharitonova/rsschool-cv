@@ -31,14 +31,16 @@ function findShort(s){
 ```
 
 ## Work experience
-**MyWed**
+**MyWed**  
 [mywed.com](https://mywed.com)
 
-**Period:** 03.2019 - 04.2020
+**Period:** 03.2019 — 04.2020  
 **Position:** Frontend-developer
 
 ## Education
 **Ryazan State Radio Engineering University**
 
+## English level
+A2 — *Pre-Intermediate*
 
 
