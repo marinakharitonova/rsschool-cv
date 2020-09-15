@@ -3,9 +3,79 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<title>CV</title>
 </head>
 <body>
-
+	<div class="container">
+		<header class="header header__wrap">
+			<img class="header__img" src="images/avatar.jpg" alt="Marina Kharitonova">
+			<h1 class="header__name">Marina<br>Kharitonova</h1>
+		</header>
+		<main class="resume">
+			<section class="resume__item">
+				<h1 class="resume__caption">Contacts</h1>
+				<p class="resume__text"><b>email:</b> m_mnishek@inbox.ru</p>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">Summary</h1>
+				<p class="resume__text">My goal is to improve my skills in the field of web development and get a well-paid job.</p>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">Skills</h1>
+				<div class="skills">
+					<ul class="skills__list">
+						<li class="skills__item"><span class="resume__text">HTML</span></li>
+						<li class="skills__item">
+							<span class="resume__text">CSS</span>
+							<ul class="skill__list skills__list_inner">
+								<li class="skills__item"><span class="resume__text">SCSS</span></li>
+								<li class="skills__item"><span class="resume__text">LESS</span></li>
+							</ul>
+						</li>
+						<li class="skills__item"><span class="resume__text">JavaScript</span></li>
+						<li class="skills__item"><span class="resume__text">BEM methodology</span></li>
+						<li class="skills__item"><span class="resume__text">Bootstrap framework</span></li>
+						<li class="skills__item"><span class="resume__text">jQuery framework</span></li>
+						<li class="skills__item"><span class="resume__text">Git</span></li>
+					</ul>
+				</div>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">Code examples</h1>
+				<div class="code-item">
+					<code>
+						<p class="resume__text">String.prototype.isLetter = function() {	</p>
+						<p><pre class="resume__text">	return /^[A-Z]$/i.test(this)</pre></p>
+						<p class="resume__text">}</p>
+					</code>
+				</div>
+				<div class="code-item">
+					<code>
+						<p class="resume__text">function findShort(s){</p>
+						<p><pre class="resume__text">	return s.split(' ').sort((a, b) => a.length - b.length)[0].length;</pre></p>
+						<p class="resume__text">}</p>
+					</code>
+				</div>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">Work experience</h1>
+				<div class="work-item">
+					<p class="resume__text"><b>Company: </b><a class="resume__link" href="https://mywed.com/" target="_blank">MyWed</a></p>
+					<p class="resume__text"><b>Period: </b>03.2019 — 04.2020</p>
+					<p class="resume__text"><b>Position: </b>Frontend-developer</p>
+				</div>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">Education</h1>
+				<p class="resume__text"><b>Ryazan State Radio Engineering University</b></p>
+			</section>
+			<section class="resume__item">
+				<h1 class="resume__caption">English level</h1>
+				<p class="resume__text">A2 — <i>Pre-Intermediate</i></p>
+			</section>
+		</main>
+	</div>
 </body>
 </html>

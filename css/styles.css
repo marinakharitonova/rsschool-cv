@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.container{
+	max-width: 800px;
+	margin: 60px auto;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+}
+
+.header__img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 25px;
+}
+
+.header__name{
+	font: 700 54px/60px 'Montserrat', sans-serif;
+	color: #106b67;
+}
+
+.header__wrap{
+	margin-bottom: 50px;
+}
+
+.resume__item{
+	margin-bottom: 30px;
+}
+
+.resume__item:last-child{
+	margin-bottom: 0;
+}
+
+.resume__text, .resume__link{
+	font: 16px/24px 'Open Sans', sans-serif;
+}
+
+.resume__caption{
+	font: 700 30px/42px 'Montserrat', sans-serif;
+	color: #106b67;
+	margin-bottom: 10px;
+}
+
+.resume__text{
+	color: #151515;
+}
+
+.resume__link{
+	color: #367acf;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.resume__link:hover{
+	opacity: 0.6;
+}
+
+.code-item{
+	background-color: #f6f8fa;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.code-item:last-child{
+	margin-bottom: 0;
+}
+
+.skills__list{
+	padding-left: 20px;
+}
+
+.skills__list_inner{
+	padding-left: 20px;
+}
